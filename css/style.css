@@ -1,0 +1,31 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.parent>div{
+	border: 1px solid #ddd;
+	margin: 2%;
+	padding: 2%;
+	box-shadow: 3px 3px 3px #ddd;
+}
+.parent>div>img{
+	display: block;
+	margin: 1% auto;
+	width: 200px;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+h2{
+	color: #9158D6
+}
+a{
+	background: #C558D6;
+	color: #fff;
+	text-align: center;
+	padding: 1%;
+	text-decoration: none;  
+}
